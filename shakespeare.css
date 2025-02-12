@@ -27,3 +27,18 @@
 .hamlet { color: darkblue; }
 .ophelia { color: purple; }
 .horatio { color: green; }
+.cast {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.cast th, .cast td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.cast tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
